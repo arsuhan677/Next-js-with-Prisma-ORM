@@ -34,7 +34,7 @@ export default function NewUser() {
             type="text"
             id="name"
             name="name"
-            placeholder="Enter your post title"
+            placeholder="Enter your full name hear...."
             className="w-full px-4 py-2 border rounded-lg"
           />
         </div>
@@ -45,14 +45,14 @@ export default function NewUser() {
           <textarea
             id="email"
             name="email"
-            placeholder="Write your post content here..."
+            placeholder="Enter your email here..."
             rows={6}
             className="w-full px-4 py-2 border rounded-lg"
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600"
+          className="w-full cursor-pointer bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600"
         >
           Create User
         </button>
